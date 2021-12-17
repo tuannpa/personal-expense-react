@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header: React.FC = (): React.ReactElement => {
     return (
-        <Navbar>
+        <Navbar bg="light" expand="md">
             <Container>
                 <Navbar.Brand as={Link} to="/">Personal Expense Portal</Navbar.Brand>
                 <Nav className="me-auto">
